@@ -1,3 +1,3 @@
-# Topo Jupyter DU Omiques
+# Topo Jupyter M1
 
-<https://omics-school.github.io/jupyter-topo/>
+<https://pierrepo.github.io/intro-jupyter-M1/>

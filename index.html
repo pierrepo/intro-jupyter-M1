@@ -32,23 +32,16 @@
 		 data-separator-notes="^Notes:">
 <textarea data-template>
 
-# Jupyter
-
-### notebooks & écosystème
+# Notebooks Jupyter
 
 <br />
 <br />
 <br />
 <br />
 
-11/2019
+12/2019
 
 <div class="container" style="margin-top: 50px;">
-<div class="col">
-	<img src="assets/img/logo_DUO.png"
-		height="80px" style="vertical-align:midle;">
-	</img>
-</div>
 <div class="col">
 	<img src="assets/img/logo_UPD_USPC.png"
 		height="100px" style="vertical-align:midle;">
@@ -69,20 +62,6 @@
 	</p>
 </div>
 
----
-
-<!-- .slide: style="text-align: left;" -->
-
-## Objectifs d'apprentissage
-
-- Définir ce qu'est un notebook.
-
-- Décrire l'écosystème Jupyter.
-
-- Créer et utiliser un notebook Jupyter.
-
-- Écrire du texte en Markdown.
-
 --- 
 
 <!-- .slide: style="text-align: left;" -->
@@ -93,6 +72,9 @@
 - document : <!-- .element: class="fragment" -->
 	- code + résultats + graphiques <!-- .element: class="fragment" -->
 	- explications + images + formules mathématiques... <!-- .element: class="fragment" -->
+
+<br />
+<br />
 
 <div class="fragment" style="margin-top: 100px;">
 « Literate programming » de Donald E. Knuth (1984) :
@@ -334,55 +316,6 @@ article : <a href="https://blog.jupyter.org/jupyterlab-is-ready-for-users-5a6f03
 
 ---
 
-<!-- .slide: style="text-align: left;" -->
-
-## L'écosystème Jupyter : Binder
-
-<img src="assets/img/binder_Juliette_Taka_CC-BY.jpg"
-	height="500px" >
-</img>
-<div class="ref">
-	Source : Juliette Taka, CC-BY.
-</div>
-
----
-
-<!-- .slide: style="text-align: left; text-size:1.2rem; " -->
-
-## L'écosystème Jupyter : Binder 
-
-<div class="container fragment">
-<div class="col" style="flex-grow:2;">
-	<img src="assets/img/giphy-frankenstein.gif"
-		height="250px" style="margin:0px;">
-	</img>
-	<div class="ref">
-	Source : <a href="https://giphy.com/gifs/frankenstein-top-100-movie-quotes-its-alive-d3Kq5w84bzlBLVDO">Giphy</a>.
-	</div>
-</div>
-<div class="col">
-</div>
-<div class="col" style="flex-grow:2;">
-Exemples : 
-
-[Try Jupyter](https://jupyter.org/try)
-
-[autoclasswrapper](https://github.com/pierrepo/autoclasswrapper)
-</div>	
-</div>
-
-<br />
-<br />
-
-<div class="fragment" style="font-size: 2rem;">
-Intro et références : 
-
-- [Toward collaborative open data science in metabolomics using Jupyter Notebooks and cloud computing](https://link.springer.com/article/10.1007/s11306-019-1588-0), Mendez et al., Metabolomics, 2019.
-- [Make code accessible with these cloud services](https://www.nature.com/articles/d41586-019-03366-x), Perkel, Nature, 2019.
-</div>
-
----
-
 <!-- .slide: style="text-align:left; "-->
 
 ## Markdown
@@ -413,116 +346,11 @@ Références :
 
 ---
 
-<!-- .slide: data-background="#a1f4c5" style="text-align:left;font-size:2rem;"-->
+<!-- .slide: style="text-align: left;" -->
 
-## Installez Jupyter
+## Démo 
 
-Suivez les instructions :
-
-<https://github.com/omics-school/jupyter-install-windows10>
-
----
-
-<!-- .slide: data-background="#a1f4c5" style="text-align:left;font-size:2rem;"-->
-
-## Créez votre premier notebook R !
-
-Lancez Jupyter
-
-```bash
-jupyter notebook
-```
-ou
-```bash
-jupyter lab
-```
-
-Créez un notebook R
-
-Tapez les commandes nécessaires pour reproduire ce [notebook](https://github.com/omics-school/jupyter-exo/blob/master/analyse.ipynb)
-
-Le fichier de données est [ici](https://raw.githubusercontent.com/omics-school/jupyter-exo/master/exprMat_DUO.tsv)
-
-
----
-
-<!-- .slide: data-background="#a1f4c5" style="text-align:left;font-size:2rem;"-->
-
-## Créez un document Markdown
-
-Lancez Jupyter
-
-Créez un notebook R
-
-Tapez les commandes nécessaires pour reproduire ce [document](https://github.com/omics-school/jupyter-exo/blob/master/markdown.ipynb)
-
-Lien pour l'image : <http://jupyter.org/assets/nav_logo.svg>
-
-Quelques ressources pour Markdown :
-
-- https://fr.wikipedia.org/wiki/Markdown
-- https://guides.github.com/features/mastering-markdown/
-
----
-
-<!-- .slide: data-background="#a1f4c5" style="text-align:left;font-size:2rem;"-->
-
-## Binder ;-)
-
-<br />
-
-<https://github.com/omics-school/jupyter-exo>
-
-<br />
-
-Cliquez sur une des icones <img src="assets/img/launch-binder.svg" style="margin: 0px;"> (de préférence Jupyter Lab)
-
-Explorez les notebooks **interactivement** via Binder :
-
-- `analyse.ipynb` : analyse de gènes différentiellement exprimés
-- `markdown.ipynb` : découverte de Markdown 
-	- https://fr.wikipedia.org/wiki/Markdown
-	- https://guides.github.com/features/mastering-markdown/
-
-
----
-
-<!-- .slide: style="text-align:left; "-->
-
-#### Pour aller plus loin vers la reproductibilité de vos analyses... 
-
-<br />
-
-<img src="assets/img//reproducibility_spectrum.png"
-	height="300px" >
-</img>
-<div class="ref" style="margin:0px;">
-	Source : <a href="https://doi.org/10.1126/science.1213847">Reproducible Research in Computational Science</a>,
-	Peng, Science, 2011.
-</div>
-
----
-
-<!-- .slide: style="text-align:left; "-->
-
-#### Pour aller plus loin vers la reproductibilité de vos analyses... 
-
-<img src="assets/img/software_stack_repro.png"
-	height="450px" >
-</img>
-<div class="ref" style="margin:0px;">
-	Source : <a href="https://doi.org/10.1016/j.cels.2018.03.014">Practical Computational Reproducibility in the Life Sciences</a>,
-	Grüning et al., Cell systems, 2018.
-</div>
-
----
-
-<img src="assets/img/giphy-break-computer.gif"
-	height="450px" >
-</img>
-<div class="ref" style="margin:0px;">
-	Source : <a href="https://giphy.com/gifs/computer-disgusted-hammer-12bVDtXPOzYwda">Giphy</a>.
-</div>
+[Try Jupyter](https://jupyter.org/try)
 
 --- 
 

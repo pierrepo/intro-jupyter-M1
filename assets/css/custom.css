@@ -131,4 +131,16 @@ print settings
         top: 10px;
         left: 1%;
     }
+    /*
+    add reference below image
+    */
+    .ref {
+        margin-top: 30px;
+        font-size: 0.5rem;
+        color: #c0c0c0;
+    }
+
+    .ref a:visited, .ref a:link {
+        color: #c0c0c0;
+    }
 }
